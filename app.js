@@ -43,7 +43,7 @@ app.use('/logout',(req,res,next)=>{
   res.redirect('/login');
 });
 
-app.use('/saml_login/',samlp);
+app.use('/login',samlp);
 
 app.use('/', ensureLoggedIn('/login'), profile);
 app.use('/profile', ensureLoggedIn('/login'), profile);

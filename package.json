@@ -7,12 +7,15 @@
   },
   "dependencies": {
     "body-parser": "~1.16.0",
+    "connect-ensure-login": "^0.1.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "dotenv": "^4.0.0",
     "ejs": "~2.5.5",
     "express": "~4.14.1",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
     "passport": "^0.3.2",
-    "passport-wsfed-saml2": "^2.11.6"
+    "passport-wsfed-saml2": "^3.0.6"
   }
 }
